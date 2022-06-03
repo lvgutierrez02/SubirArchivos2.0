@@ -2,7 +2,7 @@
 
 namespace ExcelUploadReadDataSaveExampleCore.Migrations
 {
-    public partial class @in : Migration
+    public partial class inicial : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -25,6 +25,8 @@ namespace ExcelUploadReadDataSaveExampleCore.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
+
+
                 name: "Students");
         }
     }

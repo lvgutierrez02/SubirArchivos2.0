@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ExcelUploadReadDataSaveExampleCore.Migrations
 {
     [DbContext(typeof(DataBaseContext))]
-    [Migration("20220603141630_in")]
-    partial class @in
+    [Migration("20220603192507_inicial")]
+    partial class inicial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
